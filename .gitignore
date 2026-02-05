@@ -1,1 +1,24 @@
+# --- Data: keep folder, ignore contents ---
+data/*
+!data/.gitkeep
+
+# --- Dataset files anywhere ---
+*.csv
+*.zip
+
+# --- Secrets ---
+kaggle.json
+**/kaggle.json
+
+# --- Models: keep folder, ignore contents (optional) ---
+models/*
+!models/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
